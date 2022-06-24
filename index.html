@@ -10,34 +10,35 @@
     <script src="./Assets/js/index.js" defer></script>
   </head>
   <body>
-    <nav>
-      <h1>BMI Tracker</h1>
+    <nav class="nav">
+      <h1>BMI</h1>
       <button id="show-modal">Measure</button>
       <i>Image</i>
     </nav>
     <dialog class="modal" id="modal">
-      <form action="">
-        <fieldset>
-          <legend>Personal Info</legend>
-          <div>
+      <form action="" id="bmi-form">
+        <div class="form-actions"><button id="close-modal">X</button></div>
+        <fieldset class="bmi-form-group">
+          <legend class="bmi-form-header"><h2>BMI</h2></legend>
+          <div id="user-info">
             <label for="user-name">Name</label>
             <input type="text" name="user-name" id="user-name" />
           </div>
 
-          <div>
+          <div id="calculation-info">
             <label for="height">Height</label>
             <input type="text" name="height" id="height" />
             <label for="weight">Weight</label>
             <input type="text" name="weight" id="weight" />
-            <label for="age"></label>
+            <label for="age">Age</label>
             <input type="number" name="age" id="age" />
           </div>
 
-          <button id="close-modal">Submit</button>
+          <button>Submit</button>
         </fieldset>
       </form>
     </dialog>
-    <main>
+    <main class="tracking-info">
       <h2>Tracking History</h2>
     </main>
   </body>
