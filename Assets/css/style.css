@@ -1,0 +1,56 @@
+/* navigation */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #232121;
+    color: #f3c4c4;
+}
+
+/* modal */
+.modal {
+    border-radius: 4px;
+}
+
+.modal::backdrop {
+    background-color: #000000;
+    opacity: 0.4;
+}
+
+/* form */
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    width: 1005;
+}
+
+.bmi-form-header {
+    display: flex;
+}
+
+.bmi-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 4px;
+}
+
+#user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#calculation-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#close-modal {
+    display: block;
+    margin: auto 0;
+}
+
+/* tracking info */
+.tracking-info {
+    padding: 20px;
+}
