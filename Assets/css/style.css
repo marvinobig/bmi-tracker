@@ -1,10 +1,30 @@
+/* general */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #73bc73;
+    border: none;
+    border-radius: 4px;
+    transition: 0.1s;
+}
+
+button:hover {
+    transition: 0.1s;
+    filter: brightness(80%)
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* navigation */
 .nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     background-color: #232121;
-    color: #f3c4c4;
+    color: #ffffff;
 }
 
 /* bmi info */
@@ -56,6 +76,11 @@
 }
 
 /* tracking info */
+.title {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
 .tracking-info {
     padding: 20px;
 }
