@@ -1,2 +1,2 @@
-# bmi-tracker
+# BMI-Tracker
 Track your BMI
